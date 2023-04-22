@@ -1,0 +1,171 @@
+  /* header */
+
+ header {
+    display: inline-block;
+    vertical-align: middle;
+ }
+
+ 
+
+ body {
+    width: 1300px;
+
+    
+    
+ }
+
+ .tourism {
+    margin-left: 96px;
+    margin-top: 29px;
+   vertical-align: bottom;
+     
+}
+
+nav {
+    display: inline-block;
+    vertical-align: middle;
+    
+    
+}
+
+
+
+ ul {
+    display: inline-block;
+    
+    
+}
+
+
+li {
+    padding-left: 52px;
+    display: inline-block;
+    vertical-align: middle;
+    
+   
+    
+}
+
+
+            /* first section */
+
+
+.section-1{
+    background-image: url("../images/girl.png");
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    width: 1950px;
+    height: 1050px;;
+    margin-top: 50px;
+    
+    
+    
+}
+
+
+.text-h1 {
+    font-family: "arial";
+    font-size: 78.74051666259766px;
+    font-weight: 400;
+    line-height: 52.95845413208008px;
+    font-style: normal;
+    text-align: left;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+}
+
+.text-p {
+
+    font-family: "raleway";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 37px;
+    font-style: normal;
+    text-align: left;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+
+.sec-2-div{
+    width: 195px;
+    position: absolute;
+    bottom: 10;
+    left: 110;
+}
+
+.h2-discover{
+    font-family: "raleway";
+    font-size: 15.998350143432617px;
+    font-weight: 400;
+    line-height: 36.99618911743164px;
+    font-style: normal;
+    text-align: left;
+    color: #8d8d8d;
+}
+
+.hot-services-h3 {
+    font-family: "raleway";
+    font-size: 25.9973201751709px;
+    font-weight: 400;
+    line-height: 36.99618911743164px;
+    font-style: normal;
+    text-align: left;
+    color: #1a1a1b;
+}
+
+
+.lorem-p {
+    font-family: "raleway";
+    font-size: 15.998350143432617px;
+    font-weight: 500;
+    line-height: 21.997732162475586px;
+    font-style: normal;
+    text-align: left;
+    color: #8d8d8d;
+}
+
+
+
+
+
+
+.section-2 {
+    width: 100px;
+    display: inline-block;
+    margin-right: 200px;
+    
+}
+
+.section-3 {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 10;
+    left: 110;
+    padding-left: 700px;
+
+}
+.section-4 {
+     display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 100;
+    left: 110;
+    padding-left: 700px;
+
+}
+
+.airplane-h4{
+    padding-top: 15px;
+}
+
+.p-airplane {
+    padding-top: 10px;
+    
+}
+
