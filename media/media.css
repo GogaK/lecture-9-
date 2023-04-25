@@ -1,0 +1,40 @@
+/* @media  (max-width: 1300px){
+    nav{
+        padding: 0, 2rem;
+    }
+
+    nav .nav-list .nav-item{
+        padding: 20px 0;
+    }
+
+} */
+
+@media  (max-width: 1300px){
+    
+    #hamburger-menu{
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        display: block;
+        border: none;
+        /* display: none; */
+        padding-bottom:  20px;
+        background: linear-gradient(
+        to bottom, 
+        black, black 20%, 
+        white 20%, white 40%, 
+        black 40%, black 60%, 
+        white 60%, white 80%, 
+        black 80%, black 100%
+        )
+        }
+    }
+
+    
+    @media (max-width: 1300px){
+        .nav-all{
+            display: none;
+        }
+    }
+
+
