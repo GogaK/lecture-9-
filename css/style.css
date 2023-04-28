@@ -1,10 +1,17 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
   /* header */
 
 
 
 
 
- .container {
+  .container {
     /* max-width: 1170px; */
     width: 100%;
     
@@ -22,9 +29,16 @@
 
 
 .myheader {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 
@@ -32,6 +46,8 @@ nav {
     /* display: inline-block; */
     vertical-align: middle;
     margin-top: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
  
  
@@ -70,6 +86,23 @@ li {
     border: none;
     display: none;
     margin-left: 50px;
+    background: -webkit-gradient(
+      linear, 
+      left top, left bottom, 
+      from(black), color-stop(20%, black), 
+      color-stop(20%, white), color-stop(40%, white), 
+      color-stop(40%, black), color-stop(60%, black), 
+      color-stop(60%, white), color-stop(80%, white), 
+      color-stop(80%, black), to(black)
+    );
+    background: -o-linear-gradient(
+      top, 
+      black, black 20%, 
+      white 20%, white 40%, 
+      black 40%, black 60%, 
+      white 60%, white 80%, 
+      black 80%, black 100%
+    );
     background: linear-gradient(
       to bottom, 
       black, black 20%, 
@@ -105,8 +138,12 @@ li {
     font-style: normal;
     text-align: left;
     color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding-top: 20%;
 }
 
@@ -119,15 +156,23 @@ li {
     font-style: normal;
     text-align: left;
     color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding-top: 2%;
 }
 
 
 
 .section-2 {
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     
 }
@@ -189,18 +234,31 @@ li {
     /* position: absolute;
     bottom: -300px;
     right: 150px; */
+     display: -webkit-box;
+     display: -ms-flexbox;
      display: flex;
-    flex-direction: row;
-    flex-flow: column;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-flow: column;
+        flex-flow: column;
     gap: 30px;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin-right: 250px;
     margin-bottom: 50px;
 }
 
 .card-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     gap: 40px;
     width: 395px;
     
@@ -255,14 +313,18 @@ li {
 
 
 .card-2{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     gap: 40px;
 }
 
 .img-resize{
     width: 250px;
 }
-
 
 
